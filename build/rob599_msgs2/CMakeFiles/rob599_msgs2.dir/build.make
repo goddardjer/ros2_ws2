@@ -79,6 +79,10 @@ CMakeFiles/rob599_msgs2: /home/ubuntu/ros2_ws2/src/rob599_msgs2/srv/Load.srv
 CMakeFiles/rob599_msgs2: rosidl_cmake/srv/Load_Request.msg
 CMakeFiles/rob599_msgs2: rosidl_cmake/srv/Load_Response.msg
 CMakeFiles/rob599_msgs2: /home/ubuntu/ros2_ws2/src/rob599_msgs2/action/GoTo.action
+CMakeFiles/rob599_msgs2: /home/ubuntu/ros2_ws2/src/rob599_msgs2/action/Patrol.action
+CMakeFiles/rob599_msgs2: /home/ubuntu/ros2_ws2/src/rob599_msgs2/srv/KnockKnock.srv
+CMakeFiles/rob599_msgs2: rosidl_cmake/srv/KnockKnock_Request.msg
+CMakeFiles/rob599_msgs2: rosidl_cmake/srv/KnockKnock_Response.msg
 CMakeFiles/rob599_msgs2: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/rob599_msgs2: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/rob599_msgs2: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl

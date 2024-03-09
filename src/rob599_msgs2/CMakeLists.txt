@@ -16,6 +16,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Save.srv"
   "srv/Load.srv"
   "action/GoTo.action"
+  "action/Patrol.action"
+  "srv/KnockKnock.srv"
 )
 
 if(BUILD_TESTING)

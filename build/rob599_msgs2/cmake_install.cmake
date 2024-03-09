@@ -376,6 +376,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/action" TYPE FILE FILES "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/action/Patrol.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/srv/KnockKnock.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws2/src/rob599_msgs2/srv/MemorizePosition.srv")
 endif()
 
@@ -425,6 +433,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/action" TYPE FILE FILES "/home/ubuntu/ros2_ws2/src/rob599_msgs2/action/GoTo.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/action" TYPE FILE FILES "/home/ubuntu/ros2_ws2/src/rob599_msgs2/action/Patrol.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws2/src/rob599_msgs2/srv/KnockKnock.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_cmake/srv/KnockKnock_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_msgs2/srv" TYPE FILE FILES "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_cmake/srv/KnockKnock_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

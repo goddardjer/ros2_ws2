@@ -87,6 +87,8 @@ rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_m
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_msgs2/srv/Save.idl
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_msgs2/srv/Load.idl
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_msgs2/action/GoTo.idl
+rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_msgs2/action/Patrol.idl
+rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: rosidl_adapter/rob599_msgs2/srv/KnockKnock.idl
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_c/rob599_msgs2/srv/memorize_position.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -154,6 +156,30 @@ rosidl_generator_c/rob599_msgs2/action/detail/go_to__struct.h: rosidl_generator_
 rosidl_generator_c/rob599_msgs2/action/detail/go_to__type_support.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/go_to__type_support.h
 
+rosidl_generator_c/rob599_msgs2/action/patrol.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/patrol.h
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.h
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__struct.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/patrol__struct.h
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__type_support.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/patrol__type_support.h
+
+rosidl_generator_c/rob599_msgs2/srv/knock_knock.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/knock_knock.h
+
+rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.h
+
+rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__struct.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__struct.h
+
+rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__type_support.h: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__type_support.h
+
 rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c
 
@@ -168,6 +194,12 @@ rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.c: rosidl_generator_c
 
 rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c
+
+rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c
 
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c.o: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/flags.make
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c.o: rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c
@@ -239,13 +271,43 @@ CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c -o CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.s
 
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/flags.make
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o: rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o -MF CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o.d -o CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o -c /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c
+
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c > CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.i
+
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c -o CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.s
+
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/flags.make
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o: rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o -MF CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o.d -o CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o -c /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c
+
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c > CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.i
+
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c -o CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.s
+
 # Object files for target rob599_msgs2__rosidl_generator_c
 rob599_msgs2__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__functions.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/save__functions.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.c.o" \
-"CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.o"
+"CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.o" \
+"CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o" \
+"CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o"
 
 # External object files for target rob599_msgs2__rosidl_generator_c
 rob599_msgs2__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -255,6 +317,8 @@ librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generato
 librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/save__functions.c.o
 librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.c.o
 librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.o
+librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o
+librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c.o
 librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/build.make
 librob599_msgs2__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 librob599_msgs2__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -262,7 +326,7 @@ librob599_msgs2__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier
 librob599_msgs2__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librob599_msgs2__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 librob599_msgs2__rosidl_generator_c.so: CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library librob599_msgs2__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library librob599_msgs2__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -277,12 +341,21 @@ CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob59
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/go_to__struct.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/go_to__type_support.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/patrol__struct.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/detail/patrol__type_support.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/go_to.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/action/patrol.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/clear_positions.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__functions.c
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__functions.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__struct.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__type_support.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.c
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__functions.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__struct.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/knock_knock__type_support.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.c
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/load__struct.h
@@ -295,6 +368,7 @@ CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob59
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/save__functions.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/save__struct.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/detail/save__type_support.h
+CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/knock_knock.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/load.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/memorize_position.h
 CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/depend: rosidl_generator_c/rob599_msgs2/srv/save.h

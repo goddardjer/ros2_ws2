@@ -86,6 +86,14 @@ CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/go_to.hpp
 CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__builder.hpp
 CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__struct.hpp
 CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__traits.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/patrol.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__builder.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__struct.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__traits.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/knock_knock.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__builder.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__struct.hpp
+CMakeFiles/rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__traits.hpp
 
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -107,6 +115,8 @@ rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob5
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob599_msgs2/srv/Save.idl
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob599_msgs2/srv/Load.idl
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob599_msgs2/action/GoTo.idl
+rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob599_msgs2/action/Patrol.idl
+rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: rosidl_adapter/rob599_msgs2/srv/KnockKnock.idl
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -174,15 +184,46 @@ rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__struct.hpp: rosidl_genera
 rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__traits.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__traits.hpp
 
+rosidl_generator_cpp/rob599_msgs2/action/patrol.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/action/patrol.hpp
+
+rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__builder.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__builder.hpp
+
+rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__struct.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__struct.hpp
+
+rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__traits.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__traits.hpp
+
+rosidl_generator_cpp/rob599_msgs2/srv/knock_knock.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/srv/knock_knock.hpp
+
+rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__builder.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__builder.hpp
+
+rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__struct.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__struct.hpp
+
+rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__traits.hpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__traits.hpp
+
 rob599_msgs2__cpp: CMakeFiles/rob599_msgs2__cpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__builder.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__struct.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/go_to__traits.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__builder.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__struct.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/detail/patrol__traits.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/go_to.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/action/patrol.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/clear_positions.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/clear_positions__builder.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/clear_positions__struct.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/clear_positions__traits.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__builder.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__struct.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/knock_knock__traits.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/load__builder.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/load__struct.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/load__traits.hpp
@@ -192,6 +233,7 @@ rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/memorize_positio
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/save__builder.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/save__struct.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/detail/save__traits.hpp
+rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/knock_knock.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/load.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/memorize_position.hpp
 rob599_msgs2__cpp: rosidl_generator_cpp/rob599_msgs2/srv/save.hpp

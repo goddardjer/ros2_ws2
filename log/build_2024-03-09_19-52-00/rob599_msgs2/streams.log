@@ -1,0 +1,386 @@
+[0.067s] Invoking command in '/home/ubuntu/ros2_ws2/build/rob599_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/rob599_msgs2 -- -j16 -l16
+[0.084s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.241s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.473s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.786s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.786s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.786s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.798s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.803s] -- Added test 'lint_cmake' to check CMake code style
+[0.804s] -- Added test 'xmllint' to check XML markup files
+[0.805s] -- Configuring done
+[0.828s] -- Generating done
+[0.829s] -- Build files have been written to: /home/ubuntu/ros2_ws2/build/rob599_msgs2
+[0.849s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.854s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.863s] [  2%] Built target ament_cmake_python_copy_rob599_msgs2
+[1.082s] running egg_info
+[1.083s] writing rob599_msgs2.egg-info/PKG-INFO
+[1.083s] writing dependency_links to rob599_msgs2.egg-info/dependency_links.txt
+[1.083s] writing top-level names to rob599_msgs2.egg-info/top_level.txt
+[1.084s] reading manifest file 'rob599_msgs2.egg-info/SOURCES.txt'
+[1.085s] writing manifest file 'rob599_msgs2.egg-info/SOURCES.txt'
+[1.108s] [  2%] Built target ament_cmake_python_build_rob599_msgs2_egg
+[1.402s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_generator_c[0m
+[1.416s] [  4%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__functions.c.o[0m
+[1.416s] [  5%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/clear_positions__functions.c.o[0m
+[1.418s] [  7%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/save__functions.c.o[0m
+[1.419s] [  9%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/srv/detail/load__functions.c.o[0m
+[1.420s] [  9%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.c.o[0m
+[1.427s] [ 11%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_c.dir/rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.c.o[0m
+[1.437s] [ 11%] Built target rob599_msgs2__cpp
+[1.452s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.452s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.452s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.530s] [ 16%] [32m[1mLinking C shared library librob599_msgs2__rosidl_generator_c.so[0m
+[1.567s] [ 16%] Built target rob599_msgs2__rosidl_generator_c
+[1.575s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.579s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.579s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.919s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_introspection_cpp[0m
+[1.928s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_c[0m
+[1.936s] [ 22%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/action/detail/go_to__type_support.cpp.o[0m
+[1.937s] [ 26%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/srv/detail/load__type_support.cpp.o[0m
+[1.937s] [ 26%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/srv/detail/save__type_support.cpp.o[0m
+[1.938s] [ 26%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/srv/detail/clear_positions__type_support.cpp.o[0m
+[1.938s] [ 29%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/action/detail/patrol__type_support.cpp.o[0m
+[1.939s] [ 29%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rob599_msgs2/srv/detail/memorize_position__type_support.cpp.o[0m
+[1.942s] [ 32%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/srv/clear_positions__type_support.cpp.o[0m
+[1.942s] [ 35%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/action/patrol__type_support.cpp.o[0m
+[1.942s] [ 35%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/srv/load__type_support.cpp.o[0m
+[1.943s] [ 36%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/srv/memorize_position__type_support.cpp.o[0m
+[1.944s] [ 36%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/action/go_to__type_support.cpp.o[0m
+[1.946s] [ 38%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/rob599_msgs2/srv/save__type_support.cpp.o[0m
+[2.013s] [ 39%] [32m[1mLinking CXX shared library librob599_msgs2__rosidl_typesupport_c.so[0m
+[2.050s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_fastrtps_cpp[0m
+[2.067s] [ 39%] Built target rob599_msgs2__rosidl_typesupport_c
+[2.070s] [ 40%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/srv/detail/dds_fastrtps/memorize_position__type_support.cpp.o[0m
+[2.071s] [ 42%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/srv/detail/dds_fastrtps/clear_positions__type_support.cpp.o[0m
+[2.077s] [ 43%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/srv/detail/dds_fastrtps/save__type_support.cpp.o[0m
+[2.080s] [ 45%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[2.083s] [ 46%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/action/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_cpp[0m
+[2.126s] [ 47%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_msgs2/action/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[2.135s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_introspection_c[0m
+[2.136s] [ 49%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/srv/memorize_position__type_support.cpp.o[0m
+[2.139s] [ 50%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/srv/clear_positions__type_support.cpp.o[0m
+[2.197s] [ 52%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c.o[0m
+[2.263s] [ 53%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/clear_positions__type_support.c.o[0m
+[2.300s] [ 54%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/save__type_support.c.o[0m
+[2.308s] [ 56%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__type_support.c.o[0m
+[2.341s] [ 57%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.o[0m
+[2.352s] [ 59%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o[0m
+[2.354s] [ 60%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/srv/save__type_support.cpp.o[0m
+[2.449s] [ 61%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/srv/load__type_support.cpp.o[0m
+[2.465s] [ 63%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/action/go_to__type_support.cpp.o[0m
+[2.473s] [ 64%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rob599_msgs2/action/patrol__type_support.cpp.o[0m
+[2.474s] [ 66%] [32m[1mLinking C shared library librob599_msgs2__rosidl_typesupport_introspection_c.so[0m
+[2.480s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_fastrtps_c[0m
+[2.506s] [ 67%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/srv/detail/memorize_position__type_support_c.cpp.o[0m
+[2.516s] [ 70%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/srv/detail/save__type_support_c.cpp.o[0m
+[2.516s] [ 70%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/srv/detail/clear_positions__type_support_c.cpp.o[0m
+[2.533s] [ 71%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/srv/detail/load__type_support_c.cpp.o[0m
+[2.563s] [ 71%] Built target rob599_msgs2__rosidl_typesupport_introspection_c
+[2.576s] [ 73%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/action/detail/patrol__type_support_c.cpp.o[0m
+[2.582s] [ 74%] [32mBuilding CXX object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_msgs2/action/detail/go_to__type_support_c.cpp.o[0m
+[2.652s] [ 76%] [32m[1mLinking CXX shared library librob599_msgs2__rosidl_typesupport_introspection_cpp.so[0m
+[2.732s] [ 77%] [32m[1mLinking CXX shared library librob599_msgs2__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.776s] [ 77%] Built target rob599_msgs2__rosidl_typesupport_introspection_cpp
+[2.852s] [ 77%] Built target rob599_msgs2__rosidl_typesupport_fastrtps_cpp
+[2.879s] [ 78%] [32m[1mLinking CXX shared library librob599_msgs2__rosidl_typesupport_cpp.so[0m
+[2.909s] [ 78%] Built target rob599_msgs2__rosidl_typesupport_cpp
+[2.940s] [ 80%] [32m[1mLinking CXX shared library librob599_msgs2__rosidl_typesupport_fastrtps_c.so[0m
+[2.990s] [ 80%] Built target rob599_msgs2__rosidl_typesupport_fastrtps_c
+[3.005s] [ 80%] Built target rob599_msgs2
+[3.022s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.988s] [ 81%] Built target rob599_msgs2__py
+[3.994s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_generator_py[0m
+[4.005s] [ 85%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/srv/_save_s.c.o[0m
+[4.005s] [ 85%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/srv/_memorize_position_s.c.o[0m
+[4.006s] [ 85%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/srv/_clear_positions_s.c.o[0m
+[4.008s] [ 90%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/srv/_load_s.c.o[0m
+[4.008s] [ 90%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/action/_go_to_s.c.o[0m
+[4.008s] [ 90%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_generator_py.dir/rosidl_generator_py/rob599_msgs2/action/_patrol_s.c.o[0m
+[4.115s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/rob599_msgs2/librob599_msgs2__rosidl_generator_py.so[0m
+[4.141s] [ 91%] Built target rob599_msgs2__rosidl_generator_py
+[4.147s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_introspection_c__pyext[0m
+[4.147s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_c__pyext[0m
+[4.148s] [35m[1mConsolidate compiler generated dependencies of target rob599_msgs2__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.156s] [ 95%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.156s] [ 95%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.156s] [ 95%] [32mBuilding C object CMakeFiles/rob599_msgs2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_c.c.o[0m
+[4.256s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.256s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.259s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.281s] [100%] Built target rob599_msgs2__rosidl_typesupport_fastrtps_c__pyext
+[4.281s] [100%] Built target rob599_msgs2__rosidl_typesupport_introspection_c__pyext
+[4.285s] [100%] Built target rob599_msgs2__rosidl_typesupport_c__pyext
+[4.294s] Invoked command in '/home/ubuntu/ros2_ws2/build/rob599_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/rob599_msgs2 -- -j16 -l16
+[4.367s] Invoking command in '/home/ubuntu/ros2_ws2/build/rob599_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws2/build/rob599_msgs2
+[4.372s] -- Install configuration: ""
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/ament_index/resource_index/rosidl_interfaces/rob599_msgs2
+[4.372s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.372s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg
+[4.372s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg/rosidl_generator_c__visibility_control.h
+[4.372s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/clear_positions.h
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/save.h
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/load.h
+[4.372s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__struct.h
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__type_support.h
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__type_support.h
+[4.372s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__struct.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__functions.c
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__type_support.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__functions.c
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__functions.c
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__struct.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__type_support.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__functions.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__functions.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__struct.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__functions.c
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__functions.h
+[4.373s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__functions.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/memorize_position.h
+[4.374s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/go_to.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/patrol.h
+[4.374s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__type_support.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__functions.c
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__functions.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__type_support.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__struct.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__functions.h
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__functions.c
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__struct.h
+[4.374s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/library_path.sh
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/library_path.dsv
+[4.374s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_generator_c.so
+[4.374s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_generator_c.so" to ""
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.375s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__rosidl_typesupport_fastrtps_c.h
+[4.375s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__rosidl_typesupport_fastrtps_c.h
+[4.375s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_fastrtps_c.h
+[4.375s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.375s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.375s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[4.376s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__rosidl_typesupport_fastrtps_c.h
+[4.376s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_fastrtps_c.so
+[4.376s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_fastrtps_c.so" to ""
+[4.376s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.376s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg
+[4.376s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.376s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.376s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.376s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__type_support.c
+[4.376s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__rosidl_typesupport_introspection_c.h
+[4.376s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__type_support.c
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__rosidl_typesupport_introspection_c.h
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__type_support.c
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__type_support.c
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__rosidl_typesupport_introspection_c.h
+[4.377s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.377s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__rosidl_typesupport_introspection_c.h
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__type_support.c
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__type_support.c
+[4.377s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_introspection_c.so
+[4.378s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_introspection_c.so" to ""
+[4.378s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_c.so
+[4.378s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_c.so" to ""
+[4.378s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.378s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.378s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/load.hpp
+[4.378s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/memorize_position.hpp
+[4.378s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/clear_positions.hpp
+[4.378s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__traits.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__struct.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__struct.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__traits.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__struct.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__builder.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__builder.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__struct.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__traits.hpp
+[4.379s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__builder.hpp
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__builder.hpp
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__traits.hpp
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/save.hpp
+[4.380s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/go_to.hpp
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/patrol.hpp
+[4.380s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__builder.hpp
+[4.380s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__traits.hpp
+[4.381s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__struct.hpp
+[4.381s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__struct.hpp
+[4.381s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__builder.hpp
+[4.381s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__traits.hpp
+[4.381s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.381s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg
+[4.381s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.381s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.382s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.382s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[4.382s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.382s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/dds_fastrtps
+[4.382s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[4.382s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__rosidl_typesupport_fastrtps_cpp.hpp
+[4.382s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.382s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.383s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/dds_fastrtps
+[4.383s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[4.383s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+[4.383s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_fastrtps_cpp.so
+[4.383s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.383s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2
+[4.383s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv
+[4.383s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail
+[4.383s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__type_support.cpp
+[4.383s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__type_support.cpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__rosidl_typesupport_introspection_cpp.hpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/load__type_support.cpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_cpp.hpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/save__rosidl_typesupport_introspection_cpp.hpp
+[4.384s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/srv/detail/clear_positions__type_support.cpp
+[4.384s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action
+[4.384s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__type_support.cpp
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__type_support.cpp
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/include/rob599_msgs2/rob599_msgs2/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_introspection_cpp.so
+[4.385s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_introspection_cpp.so" to ""
+[4.385s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_cpp.so
+[4.385s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_typesupport_cpp.so" to ""
+[4.385s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/pythonpath.sh
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/pythonpath.dsv
+[4.386s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2-0.0.0-py3.10.egg-info
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2-0.0.0-py3.10.egg-info/top_level.txt
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2-0.0.0-py3.10.egg-info/PKG-INFO
+[4.386s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_introspection_c.c
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.386s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.387s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.387s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/__init__.py
+[4.387s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/_rob599_msgs2_s.ep.rosidl_typesupport_c.c
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/librob599_msgs2__rosidl_generator_py.so
+[4.388s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_load.py
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_save_s.c
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_memorize_position_s.c
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_clear_positions_s.c
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_clear_positions.py
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/__init__.py
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_save.py
+[4.388s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_memorize_position.py
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_load_s.c
+[4.389s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_patrol.py
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_patrol_s.c
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/__init__.py
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_go_to_s.c
+[4.389s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_go_to.py
+[4.422s] Listing '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2'...
+[4.422s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/__init__.py'...
+[4.423s] Listing '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/__init__.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_go_to.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/action/_patrol.py'...
+[4.423s] Listing '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/__init__.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_clear_positions.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_load.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_memorize_position.py'...
+[4.423s] Compiling '/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/srv/_save.py'...
+[4.426s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.426s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.426s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.427s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.427s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.427s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/local/lib/python3.10/dist-packages/rob599_msgs2/rob599_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.427s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_generator_py.so
+[4.428s] -- Set runtime path of "/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib/librob599_msgs2__rosidl_generator_py.so" to ""
+[4.428s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/MemorizePosition.idl
+[4.428s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/ClearPositions.idl
+[4.428s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Save.idl
+[4.428s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Load.idl
+[4.428s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/action/GoTo.idl
+[4.428s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/action/Patrol.idl
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/MemorizePosition.srv
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/MemorizePosition_Request.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/MemorizePosition_Response.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/ClearPositions.srv
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/ClearPositions_Request.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/ClearPositions_Response.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Save.srv
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Save_Request.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Save_Response.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Load.srv
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Load_Request.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/srv/Load_Response.msg
+[4.429s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/action/GoTo.action
+[4.430s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/action/Patrol.action
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/ament_index/resource_index/package_run_dependencies/rob599_msgs2
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/ament_index/resource_index/parent_prefix_path/rob599_msgs2
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/ament_prefix_path.sh
+[4.430s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/ament_prefix_path.dsv
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/path.sh
+[4.430s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/environment/path.dsv
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/local_setup.bash
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/local_setup.sh
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/local_setup.zsh
+[4.430s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/local_setup.dsv
+[4.430s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/package.dsv
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/ament_index/resource_index/packages/rob599_msgs2
+[4.430s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_generator_cExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_generator_cExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_typesupport_fastrtps_cExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_introspection_cExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_cExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_cExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_generator_cppExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_introspection_cppExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_cppExport.cmake
+[4.431s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2__rosidl_typesupport_cppExport-noconfig.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_generator_pyExport.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/export_rob599_msgs2__rosidl_generator_pyExport-noconfig.cmake
+[4.432s] -- Installing: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rosidl_cmake-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/ament_cmake_export_libraries-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/ament_cmake_export_targets-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2Config.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/cmake/rob599_msgs2Config-version.cmake
+[4.432s] -- Up-to-date: /home/ubuntu/ros2_ws2/install/rob599_msgs2/share/rob599_msgs2/package.xml
+[4.434s] Invoked command in '/home/ubuntu/ros2_ws2/build/rob599_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws2/build/rob599_msgs2

@@ -1,9 +1,15 @@
 action/GoTo.action
 action/GoTo.idl
+action/Patrol.action
+action/Patrol.idl
 srv/ClearPositions.idl
 srv/ClearPositions.srv
 srv/ClearPositions_Request.msg
 srv/ClearPositions_Response.msg
+srv/KnockKnock.idl
+srv/KnockKnock.srv
+srv/KnockKnock_Request.msg
+srv/KnockKnock_Response.msg
 srv/Load.idl
 srv/Load.srv
 srv/Load_Request.msg

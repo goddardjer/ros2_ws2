@@ -3,3 +3,5 @@
 /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Save.idl
 /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Load.idl
 /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/GoTo.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/Patrol.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/KnockKnock.idl

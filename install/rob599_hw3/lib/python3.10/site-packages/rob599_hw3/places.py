@@ -12,7 +12,10 @@ from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
 from rclpy.duration import Duration
 from geometry_msgs.msg import PoseStamped
 from rob599_msgs2.action import GoTo
+from rob599_msgs2.action import Patrol
+from rob599_msgs2.srv import KnockKnock
 from rclpy.action import ActionServer
+
 import json
 import os
 
@@ -37,6 +40,13 @@ class PlacesNode(Node):
             GoTo,
             'go_to',
             self.execute_callback)
+        self.patrol_action_server = ActionServer(
+            self,
+            Patrol,
+            'patrol',
+            self.execute_patrol_callback)
+        self.knock_knock_service = self.create_service(
+            KnockKnock, 'knock_knock', self.knock_knock_callback)
 
         # Marker publisher
         self.marker_publisher = self.create_publisher(Marker, 'positions_marker', 10)
@@ -44,6 +54,45 @@ class PlacesNode(Node):
         # TF buffer and listener
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
+
+    def knock_knock_callback(self, request, response):
+        # Stop any ongoing action
+        self.navigator.cancelTask()
+
+        # Load positions from the HW3.txt file
+        load_request = Load.Request()
+        load_request.filename = 'HW3.txt'
+        self.load_positions_callback(load_request, Load.Response())
+
+        # Send the robot to the front door
+        if 'front door' in self.positions:
+            x = self.positions['front door'].position.x
+            y = self.positions['front door'].position.y
+            self.go_to(x, y)
+        else:
+            self.get_logger().error("Front door position not found")
+
+        return response
+
+
+
+    async def execute_patrol_callback(self, goal_handle):
+        feedback_msg = Patrol.Feedback()
+        result = Patrol.Result()
+        for place in self.positions:
+            x = self.positions[place].position.x
+            y = self.positions[place].position.y
+            self.go_to(x, y)
+            while not self.navigator.isTaskComplete():
+                feedback = self.navigator.getFeedback()
+                self.get_logger().info(f'Estimated time of arrival: {Duration.from_msg(feedback.estimated_time_remaining).nanoseconds / 1e9:.2f} seconds')
+            if not goal_handle.is_active:
+                result.success = False
+                result.message = "Patrol was cancelled"
+                return result
+        result.success = True
+        result.message = "Patrol complete"
+        return result
 
     async def execute_callback(self, goal_handle):
         goal = goal_handle.request
@@ -109,7 +158,7 @@ class PlacesNode(Node):
     def save_positions_callback(self, request, response):
     # Save positions to a file
         try:
-            os.makedirs('resources', exist_ok=True)  # Create the directory if it does not exist
+            os.makedirs('src/rob599_hw3/resource', exist_ok=True)  # Create the directory if it does not exist
 
             # Convert Pose objects to dictionaries
             positions_dict = {name: {'position': {'x': pose.position.x, 'y': pose.position.y, 'z': pose.position.z},
@@ -117,7 +166,7 @@ class PlacesNode(Node):
                                                     'z': pose.orientation.z, 'w': pose.orientation.w}}
                             for name, pose in self.positions.items()}
 
-            with open(os.path.join('resources', request.filename), 'w') as f:
+            with open(os.path.join('src/rob599_hw3/resource', request.filename), 'w') as f:
                 json.dump(positions_dict, f)
 
             response.success = True
@@ -130,7 +179,7 @@ class PlacesNode(Node):
     def load_positions_callback(self, request, response):
     # Load positions from a file
         try:
-            with open(os.path.join('resources', request.filename), 'r') as f:
+            with open(os.path.join('src/rob599_hw3/resource', request.filename), 'r') as f:
                 positions_dict = json.load(f)
 
             # Convert dictionaries back to Pose objects

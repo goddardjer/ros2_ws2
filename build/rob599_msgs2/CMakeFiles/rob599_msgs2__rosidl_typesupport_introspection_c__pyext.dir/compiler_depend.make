@@ -261,7 +261,10 @@ CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_ge
   rosidl_generator_c/rob599_msgs2/action/detail/go_to__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.h
+  rosidl_generator_c/rob599_msgs2/action/detail/go_to__functions.h \
+  rosidl_generator_c/rob599_msgs2/action/detail/patrol__type_support.h \
+  rosidl_generator_c/rob599_msgs2/action/detail/patrol__struct.h \
+  rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.h
 
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
@@ -312,6 +315,8 @@ rosidl_generator_c/rob599_msgs2/action/detail/go_to__struct.h:
 
 /usr/include/python3.10/cpython/pyctype.h:
 
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/unistd.h:
@@ -347,6 +352,8 @@ rosidl_generator_c/rob599_msgs2/action/detail/go_to__struct.h:
 /usr/include/python3.10/cpython/pyerrors.h:
 
 /usr/include/strings.h:
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__struct.h:
 
 /usr/include/python3.10/cpython/unicodeobject.h:
 
@@ -607,6 +614,8 @@ rosidl_generator_c/rob599_msgs2/srv/detail/memorize_position__type_support.h:
 /usr/include/python3.10/object.h:
 
 /usr/include/python3.10/cpython/bytearrayobject.h:
+
+rosidl_generator_c/rob599_msgs2/action/detail/patrol__type_support.h:
 
 /usr/include/python3.10/cpython/pystate.h:
 

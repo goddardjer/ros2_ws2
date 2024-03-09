@@ -5,6 +5,8 @@
     "/home/ubuntu/ros2_ws2/src/rob599_msgs2:srv/ClearPositions.srv",
     "/home/ubuntu/ros2_ws2/src/rob599_msgs2:srv/Save.srv",
     "/home/ubuntu/ros2_ws2/src/rob599_msgs2:srv/Load.srv",
-    "/home/ubuntu/ros2_ws2/src/rob599_msgs2:action/GoTo.action"
+    "/home/ubuntu/ros2_ws2/src/rob599_msgs2:action/GoTo.action",
+    "/home/ubuntu/ros2_ws2/src/rob599_msgs2:action/Patrol.action",
+    "/home/ubuntu/ros2_ws2/src/rob599_msgs2:srv/KnockKnock.srv"
   ]
 }

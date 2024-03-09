@@ -82,6 +82,8 @@ rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__ro
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: rosidl_adapter/rob599_msgs2/srv/Save.idl
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: rosidl_adapter/rob599_msgs2/srv/Load.idl
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: rosidl_adapter/rob599_msgs2/action/GoTo.idl
+rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: rosidl_adapter/rob599_msgs2/action/Patrol.idl
+rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: rosidl_adapter/rob599_msgs2/srv/KnockKnock.idl
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -104,6 +106,12 @@ rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__rosidl_typesupp
 rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c
 
@@ -118,6 +126,12 @@ rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__type_support.c:
 
 rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c
+
+rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c
+
+rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c
 
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c.o: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c.o: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c
@@ -189,13 +203,43 @@ CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c -o CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.s
 
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o: rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o -MF CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o.d -o CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o -c /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c
+
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c > CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.i
+
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c -o CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.s
+
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o -MF CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o.d -o CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o -c /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c
+
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c > CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.i
+
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c -o CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.s
+
 # Object files for target rob599_msgs2__rosidl_typesupport_introspection_c
 rob599_msgs2__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__type_support.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/clear_positions__type_support.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/save__type_support.c.o" \
 "CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__type_support.c.o" \
-"CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.o"
+"CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.o" \
+"CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o" \
+"CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o"
 
 # External object files for target rob599_msgs2__rosidl_typesupport_introspection_c
 rob599_msgs2__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
@@ -205,6 +249,8 @@ librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2_
 librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/save__type_support.c.o
 librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__type_support.c.o
 librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c.o
+librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c.o
+librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c.o
 librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/build.make
 librob599_msgs2__rosidl_typesupport_introspection_c.so: librob599_msgs2__rosidl_generator_c.so
 librob599_msgs2__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
@@ -217,7 +263,7 @@ librob599_msgs2__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libu
 librob599_msgs2__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librob599_msgs2__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 librob599_msgs2__rosidl_typesupport_introspection_c.so: CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library librob599_msgs2__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ros2_ws2/build/rob599_msgs2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library librob599_msgs2__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,8 +276,12 @@ CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__rosidl_typesupport_introspection_c.h
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/go_to__type_support.c
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__rosidl_typesupport_introspection_c.h
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/action/detail/patrol__type_support.c
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/clear_positions__rosidl_typesupport_introspection_c.h
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/clear_positions__type_support.c
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__rosidl_typesupport_introspection_c.h
+CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/knock_knock__type_support.c
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__rosidl_typesupport_introspection_c.h
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/load__type_support.c
 CMakeFiles/rob599_msgs2__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/rob599_msgs2/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h

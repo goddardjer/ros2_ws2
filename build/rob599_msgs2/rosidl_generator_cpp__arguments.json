@@ -7,7 +7,9 @@
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/ClearPositions.idl",
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Save.idl",
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Load.idl",
-    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/GoTo.idl"
+    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/GoTo.idl",
+    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/Patrol.idl",
+    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/KnockKnock.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -39,6 +41,8 @@
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/srv/Save.idl",
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/srv/Load.idl",
     "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/action/GoTo.idl",
+    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/action/Patrol.idl",
+    "/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2/srv/KnockKnock.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
