@@ -1,0 +1,5 @@
+# The request is just a string for the filename
+string filename
+---
+# The response is a boolean indicating success
+bool success

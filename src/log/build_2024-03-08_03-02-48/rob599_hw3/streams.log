@@ -1,0 +1,43 @@
+[0.431s] Invoking command in '/home/ubuntu/ros2_ws2/src/rob599_hw3': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws2/src/install/turtlebot3_gazebo:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws2/src/install/turtlebot3_gazebo:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws2/src/install/rob599_msgs2/lib:/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/ros2_ws2/src/build/rob599_hw3/prefix_override:/home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rob599_hw3 build --build-base /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build install --record /home/ubuntu/ros2_ws2/src/build/rob599_hw3/install.log --single-version-externally-managed
+[0.562s] running egg_info
+[0.562s] creating ../build/rob599_hw3/rob599_hw3.egg-info
+[0.563s] writing ../build/rob599_hw3/rob599_hw3.egg-info/PKG-INFO
+[0.563s] writing dependency_links to ../build/rob599_hw3/rob599_hw3.egg-info/dependency_links.txt
+[0.563s] writing entry points to ../build/rob599_hw3/rob599_hw3.egg-info/entry_points.txt
+[0.563s] writing requirements to ../build/rob599_hw3/rob599_hw3.egg-info/requires.txt
+[0.563s] writing top-level names to ../build/rob599_hw3/rob599_hw3.egg-info/top_level.txt
+[0.563s] writing manifest file '../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'
+[0.563s] reading manifest file '../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'
+[0.563s] adding license file 'LICENSE'
+[0.563s] writing manifest file '../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'
+[0.563s] running build
+[0.563s] running build_py
+[0.563s] creating /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build
+[0.563s] creating /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib
+[0.563s] creating /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib/rob599_hw3
+[0.563s] copying rob599_hw3/__init__.py -> /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib/rob599_hw3
+[0.564s] copying rob599_hw3/places.py -> /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib/rob599_hw3
+[0.564s] running install
+[0.564s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.564s]   warnings.warn(
+[0.564s] running install_lib
+[0.564s] creating /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3
+[0.564s] copying /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib/rob599_hw3/__init__.py -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3
+[0.564s] copying /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build/lib/rob599_hw3/places.py -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3
+[0.564s] byte-compiling /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3/__init__.py to __init__.cpython-310.pyc
+[0.564s] byte-compiling /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3/places.py to places.cpython-310.pyc
+[0.565s] running install_data
+[0.565s] creating /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/ament_index
+[0.565s] creating /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/ament_index/resource_index
+[0.565s] creating /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/ament_index/resource_index/packages
+[0.565s] copying resource/rob599_hw3 -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/ament_index/resource_index/packages
+[0.565s] copying package.xml -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/rob599_hw3
+[0.566s] creating /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/rob599_hw3/launch
+[0.566s] copying launch/turtlebot3_slam_launch.py -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/rob599_hw3/launch
+[0.566s] copying launch/turtlebot3_nav_launch.py -> /home/ubuntu/ros2_ws2/src/install/rob599_hw3/share/rob599_hw3/launch
+[0.566s] running install_egg_info
+[0.567s] Copying ../build/rob599_hw3/rob599_hw3.egg-info to /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3-0.0.0-py3.10.egg-info
+[0.568s] running install_scripts
+[0.579s] Installing places script to /home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/rob599_hw3
+[0.579s] writing list of installed files to '/home/ubuntu/ros2_ws2/src/build/rob599_hw3/install.log'
+[0.593s] Invoked command in '/home/ubuntu/ros2_ws2/src/rob599_hw3' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws2/src/install/turtlebot3_gazebo:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws2/src/install/turtlebot3_gazebo:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws2/src/install/rob599_msgs2/lib:/home/ubuntu/ros2_ws2/install/rob599_msgs2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/ros2_ws2/src/build/rob599_hw3/prefix_override:/home/ubuntu/ros2_ws2/src/install/rob599_hw3/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/src/install/rob599_msgs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rob599_hw3 build --build-base /home/ubuntu/ros2_ws2/src/build/rob599_hw3/build install --record /home/ubuntu/ros2_ws2/src/build/rob599_hw3/install.log --single-version-externally-managed

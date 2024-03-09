@@ -1,0 +1,5 @@
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/MemorizePosition.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/ClearPositions.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Save.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:srv/Load.idl
+/home/ubuntu/ros2_ws2/build/rob599_msgs2/rosidl_adapter/rob599_msgs2:action/GoTo.idl

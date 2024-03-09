@@ -1,0 +1,11 @@
+setup.py
+rob599_msgs2/__init__.py
+rob599_msgs2.egg-info/PKG-INFO
+rob599_msgs2.egg-info/SOURCES.txt
+rob599_msgs2.egg-info/dependency_links.txt
+rob599_msgs2.egg-info/top_level.txt
+rob599_msgs2/srv/__init__.py
+rob599_msgs2/srv/_clear_positions.py
+rob599_msgs2/srv/_load.py
+rob599_msgs2/srv/_memorize_position.py
+rob599_msgs2/srv/_save.py
